@@ -1,0 +1,42 @@
+body {
+    background: rgb(11, 97, 209);
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner .wish-msg h1 {
+    color: rgb(195, 245, 163);
+    font-size: 50px;
+}
+
+.banner .wish-msg a {
+    text-decoration: none;
+    font-size: 2em;
+    padding: 20px;
+    border-radius: 20px;
+    background: #fff;
+    border: 1px solid #04AA6D;
+    color: green;
+    outline: none;
+}
+
+.banner .wish-msg a:hover {
+    background: #04AA6D;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner .wish-msg a {
+        font-size: 20px;
+    }
+}
