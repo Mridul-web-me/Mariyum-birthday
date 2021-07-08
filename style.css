@@ -35,8 +35,16 @@ body {
     color: white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     .banner .wish-msg a {
         font-size: 20px;
+    }
+
+    .banner .wish-msg h1 {
+        font-size: 36px;
+    }
+
+    video {
+        width: 100%;
     }
 }
